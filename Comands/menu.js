@@ -58,8 +58,8 @@ module.exports = async (sock, m, args) => {
         await sock.sendMessage(chatId, { text: "⚡ Loading menu..." }, { quoted: m });
 
         const menu = `
-*╭┈───〔 𝐑𝐈𝐅𝐓-𝐌𝐃 〕┈───⊷*
-*├▢ 🤖 ᴏᴡɴᴇʀ:* ᴡᴇᴇᴅ ᴛᴇᴄʜ
+*╭┈───〔 FANKAR-SM-BOT〕┈───⊷*
+*├▢ 🤖 ᴏᴡɴᴇʀ:* FANKAR ᴛᴇᴄʜ
 *├▢ 👤 ᴜsᴇʀ:* ${pushName}
 *├▢ 📜 ᴄᴏᴍᴍᴀɴᴅs:* ${totalCommands}
 *├▢ ⏱️ ʀᴜɴᴛɪᴍᴇ:* ${uptime}
@@ -68,7 +68,7 @@ module.exports = async (sock, m, args) => {
 *├▢ 🏷️ ᴠᴇʀsɪᴏɴ:* 2.0.0
 *╰───────────────────⊷*
 ${menuCategoriesText}
-> *©️ 𝓹𝓸𝔀𝓮𝓻𝓮𝓭 𝓫𝔂 𝔀𝓮𝓮𝓭 𝓽𝓮ᑦ𝒽*
+> *©️ powerd by fankar tech
     `.trim();
 
         const channelInfo = {
@@ -78,7 +78,7 @@ ${menuCategoriesText}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: "120363407561123100@newsletter",
-                    newsletterName: "RIFT-MD OFFICIAL",
+                    newsletterName: "FANKAR-SM-BOT OFFICIAL",
                     serverMessageId: -1
                 }
             }
